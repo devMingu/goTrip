@@ -123,6 +123,9 @@ button{
     margin-top: 0;
     overflow: scroll;
 }
+.slideContent::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
 .slideContent img{
     width: 280px;
     height: 280px;

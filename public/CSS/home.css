@@ -97,6 +97,9 @@ a {
   padding: 10px;
   /* background-color: aliceblue; */
 }
+.navbarOptions::-webkit-scrollbar {
+  display: none; 
+}
 .optionsMargin {
   display: flex;
   font-size: 12px;
